@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'services' => [
     'mpu' => [
         'merchantID'=> env('MERCHANT_ID'),
         'merchantSecret' => env('MERCHANT_SECRET'),
@@ -9,4 +10,5 @@ return [
         'baseUrl' => env('BASE_URL'),
         'prodUrl' => env('PROD_URL'),
     ]
+   ]
 ];
