@@ -1,0 +1,23 @@
+{
+    "name": "hak/payment-mpu",
+    "description": "Myanmar Payment Union ( MPU - 2C2P ) Integration Package",
+    "require": {
+        "firebase/php-jwt": "dev-main",
+        "illuminate/support": "8.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hak\\PaymentMpu\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hak\\PaymentMpu\\GatewayServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
